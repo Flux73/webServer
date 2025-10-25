@@ -27,7 +27,12 @@ bash
 
 ./webserv [configuration_file]
 
+The project is compiled with the following flags:
+
 -std=c++98 - C++98 standard compliance
+
 -fsanitize=address - Memory error detection (debug mode)
+
 -g - Debug symbols
+
 For production builds, consider removing the sanitizer flag and adding optimization flags like -O2.
